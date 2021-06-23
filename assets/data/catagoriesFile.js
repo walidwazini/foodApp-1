@@ -1,22 +1,22 @@
-const catagoriesData = [
+const categoriesData = [
     {
-        id: 1,
-        images: require('../images/pizza-icon.png'),
+        id:'1',
+        image: require('../images/pizza-icon.png'),
         title: 'Pizza',
         selected: true,
     },
     {
-        id: 2,
-        images: require('../images/shrimp-icon.png'),
+        id:'2',
+        image: require('../images/shrimp-icon.png'),
         title: 'Pizza',
-        selected: true,
+        selected: false,
     },
     {
-        id: 3,
-        images: require('../images/soda-icon.png'),
+        id:'3',
+        image: require('../images/soda-icon.png'),
         title: 'Pizza',
-        selected: true,
+        selected: false,
     },
 ];
 
-export default catagoriesData;
+export default categoriesData;
