@@ -17,6 +17,8 @@ import {
 import { AppLoading } from 'expo';
 
 
+
+
 export default function HomeScreen({ navigation }) {
     const renderCategoryItem = ({ item }) => {
         return (
